@@ -18,7 +18,8 @@ I used Python regular expressions to check if a password contains at least one n
 The main challenge was creating correct regex patterns for validation.
 
 ## Output
-(Insert Screenshot Here)
+![Output](./password.png)
+
 
 ## Future Improvements
 I would add uppercase and lowercase validation and store results in a file.
