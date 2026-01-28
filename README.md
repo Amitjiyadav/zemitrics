@@ -26,3 +26,5 @@ The main challenge was creating correct regex patterns for validation.
 
 ## Future Improvements
 I would add uppercase and lowercase validation and store results in a file.
+Allow user input instead of a hardcoded password list
+Export validation results to a file
