@@ -9,7 +9,7 @@ This project validates a list of passwords based on security rules like length, 
 ## Setup Instructions
 1. Install Python
 2. Run:
-   python lowercase.py
+   python password.py
 
 ## Logic
 I used Python regular expressions to check if a password contains at least one number, one special character, and has a minimum length of 8.
