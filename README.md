@@ -11,8 +11,11 @@ This project validates a list of passwords based on security rules like length, 
 2. Run:
    python password.py
 
-## Logic
-I used Python regular expressions to check if a password contains at least one number, one special character, and has a minimum length of 8.
+## The Logic (How I Thought)
+I chose this approach because password validation is a common testing scenario, and Python regular expressions allow simple and efficient rule-based checks. Each validation rule is separated to keep the logic readable and easy to debug.
+
+The biggest challenge was ensuring that multiple validation rules were applied correctly without making the code complex. I solved this by validating each condition individually and returning clear pass or fail results.
+
 
 ## Challenges Faced
 The main challenge was creating correct regex patterns for validation.
